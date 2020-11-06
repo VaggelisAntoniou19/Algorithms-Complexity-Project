@@ -1,5 +1,7 @@
 # Algorithms-Complexity-Project
 
-Algorithm_&-Complexity_Project2020
+Algorithm & Complexity Project 2020-2021
+
+Αλγόριθμοι χρωματισμού γραφημάτων
 
  
