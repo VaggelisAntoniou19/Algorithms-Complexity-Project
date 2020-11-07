@@ -31,16 +31,18 @@
 
 # O αλγόριθμος backtracking DSATUR.
 
-O αλγόριθμος backtracking DSATUR είναι η τέταρτη εφαρμογή αλγορίθμου της παρούσας εργασίας, με κύριο χαρακτηριστικό την εκχώρηση χρωμάτων σε όλες τις κορυφές του γραφήματος με σκοπό τον χρωματισμό του. Δεδομένου ενός μη κατευθυνόμενου γραφήματος και ενός ακεραίου αριθμού m, καθορίζεται εάν το γράφημα μπορεί να χρωματιστεί με το πολύ m χρώματα, έτσι ώστε να μην χρωματίζονται δύο γειτονικές κορυφές του γραφήματος με το ίδιο χρώμα. Εδώ ο χρωματισμός ενός γραφήματος σημαίνει την εκχώρηση χρωμάτων σε όλες τις κορυφές.
+O αλγόριθμος backtracking DSATUR είναι η τέταρτη εφαρμογή αλγορίθμου της παρούσας εργασίας, με κύριο χαρακτηριστικό την εκχώρηση χρωμάτων σε όλες τις κορυφές του γραφήματος με σκοπό τον χρωματισμό του. Δεδομένου ενός μη κατευθυνόμενου γραφήματος και ενός ακεραίου αριθμού m, καθορίζεται εάν το γράφημα μπορεί να χρωματιστεί με το πολύ m χρώματα, έτσι ώστε να μην χρωματίζονται δύο γειτονικές κορυφές του γραφήματος με το ίδιο χρώμα. Εδώ ο χρωματισμός ενός γραφήματος σημαίνει την εκχώρηση χρωμάτων σε όλες τις κορυφές. Η αρχική σειρά των κορυφών καθορίζεται από τον αλγόριθμο DSATUR. Ως εκ τούτου, οι κορυφές με τα λιγότερα διαθέσιμα χρώματα χρωματίζονται πρώτα, με τους δεσμούς να σπάζουν με βάση των βαθμών (degrees) και οι περαιτέρω δεσμοί να σπάζουν τυχαία. Αφού εκτελεστεί ένα βήμα προς τα πίσω, οι κορυφές αναδιατάσσονται δυναμικά, έτσι ώστε η επόμενη κορυφή που πρέπει να χρωματιστεί να είναι και αυτή με τα λιγότερα διαθέσιμα χρώματα. Εάν η κορυφή δεν διαθέτει εφικτά χρώματα, ο αλγόριθμος παίρνει ένα ακόμη βήμα προς τα πίσω (Backtracking) [R.M.R. Lewis].
+
 
 # Βιβλιογραφία
 
 Brélaz, Daniel (1979-04-01). "New methods to color the vertices of a graph". Communications of the ACM. 22 (4): 251–256. doi:10.1145/359094.359101. ISSN 0001-0782.
 
-H.A. Kierstead, David A. Smith, W.T.Trotterb (2016-01-15). "European Journal of Combinatorics"."First-fit coloring on interval graphs has performance ratio at least 5".pp(236-254)
+H.A. Kierstead, David A. Smith, W.T.Trotterb (2016-01-15). "European Journal of Combinatorics"."First-fit coloring on interval graphs has performance ratio at least 5".pp(236-254).
 
-Richard M Karp. (1972). "Complexity of computer computations". "chapter reducibility among combinatorial problems". Plenum Press. "Survey of State‐of‐the‐Art". pp(23:85–104)
+Richard M Karp (1972). "Complexity of computer computations". "chapter reducibility among combinatorial problems". Plenum Press. "Survey of State‐of‐the‐Art". pp(23:85–104).
 
-Mourchid Adegbindin, Alain Hertz, Martine Bella ̈ıche (2015-11-02). "A new efficient RLF-like Algorithmfor the Vertex Coloring Problem".pp(1-2)
+Mourchid Adegbindin, Alain Hertz, Martine Bella ̈ıche (2015-11-02). "A new efficient RLF-like Algorithmfor the Vertex Coloring Problem".pp(1-2).
 
-Πληροφορίες για τους ανωτέρω αλγορίθμους μπορούν να βρεθούν στο άρθρο [LTMG12]
+R.M.R. Lewis (2015-10-27)."A Guide to Graph ColouringAlgorithms and Applications"."Algorithm Case Studies".pp(88-89).
+ 
