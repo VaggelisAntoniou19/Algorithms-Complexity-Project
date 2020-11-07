@@ -16,10 +16,7 @@
 E, ζητείται η ανάθεση σε κάθε κορυφή v ∈ V ενός ακεραίου c(v) ∈ {1, 2, ..., k} έτσι ώστε το k
 να ελαχιστοποιείται και να ισχύει ότι c(v) ≠ c(u) ∀{v, u} ∈ E.
 
-
-
-
-![graph_image](https://user-images.githubusercontent.com/73305651/98444708-d5d0da00-211b-11eb-8b03-17ac6b1d8107.png)
+![photo](https://user-images.githubusercontent.com/73305651/98450150-f52f2d80-2142-11eb-80f9-1fcfee29e5eb.png)
 
 
 
