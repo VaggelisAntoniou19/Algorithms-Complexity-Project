@@ -1,8 +1,6 @@
 /*
  * input.hpp
  *
- *  Created on: 7 ??? 2021
- *      Author: nasto
  */
 
 #ifndef INPUT_HPP_
@@ -39,7 +37,7 @@ public:
     std::string getFilename() const;
     bool is_adjacence(int s, int t) const;
     void stats();
-    void printexams();
+
 };
 
 int count_common_elements(set<int> s1, set<int> s2);

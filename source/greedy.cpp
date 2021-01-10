@@ -45,7 +45,7 @@
         }
     }
 
-    //Î•ÎºÏ„Î­Î»ÎµÏƒÎ· Î±Î»Î³Î¿Ï�Î¯Î¸Î¼Î¿Ï… first fit
+
     void Graph::greedyColoring()
     {
         int *result = new int[this->V];

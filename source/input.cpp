@@ -66,6 +66,8 @@ string fileselection()
     cin >> a;
     return files.at(a - 1);
 }
+
+
 int number_of_vertices(string fn)
 {
     int i = 0;
@@ -86,13 +88,12 @@ int number_of_vertices(string fn)
         for (int i = 0; i < number_of_exams; i++)
         {
             this->exam_students.push_back(set<int>());
-            this->adj.push_back(vector<int>());
+            this->adj.push_back(vector<int>());//creat the Adjacency matrix
         }
     }
     void input::save_to_file(int v,double d,int max,int median,int min,double mean,double cv)
     {
-        //ÎˆÎ»ÎµÎ³Ï‡Î¿Ï‚ Î±Î½ Î· ÎµÎ³Î³Ï�Î±Ï†Î® Ï€Î¿Ï… Ï€Î¬Ï‰ Î½Î± Î±Ï€Î¿Î¸Î·ÎºÎµÏ�ÏƒÏ‰ Ï…Ï€Î¬Ï�Ï‡ÎµÎ¹ Î®Î´Î· ÏƒÏ„Î¿ Î±Ï�Ï‡ÎµÎ¯Î¿.
-        //Î‘Î½ Ï…Ï€Î¬Ï�Ï‡ÎµÎ¹ ÏƒÏ„Î±Î¼Î±Ï„Î¬Ï‰ Ï„Î·Î½ Î­ÎºÏ„Î­Î»ÎµÏƒÎ· Ï„Î·Ï‚ ÏƒÏ…Î½Î¬Ï�Ï„Î·ÏƒÎ·Ï‚.
+
         string line,word;
         ifstream is;
         is.open("statistics.txt");
@@ -107,7 +108,6 @@ int number_of_vertices(string fn)
         }  
         is.close();
 
-        //Î‘Î½ Î· ÎµÎ³Î³Ï�Î±Ï†Î® Î´ÎµÎ½ Ï…Ï€Î¬Ï�Ï‡ÎµÎ¹ Ï„Î·Ï…Î½ Ï€Ï�Î¿ÏƒÎ¸Î­Ï„Ï‰ ÏƒÏ„Î¿ Î±Ï�Ï‡ÎµÎ¯Î¿.
         ofstream os;
         os.open("statistics.txt",ios::app);
         os<<this->filename<<","<<v<<","<<d<<","<<max<<","<<median<<","<<min<<","<<mean<<","<<cv<<endl;
@@ -123,6 +123,7 @@ int number_of_vertices(string fn)
         }
         return (double)counter / pow(size, 2);
     }
+
     void input::fill_adjacency()
     {
         const int size = this->exam_students.size();
@@ -219,11 +220,4 @@ int number_of_vertices(string fn)
         delete[] sum;
         this->save_to_file(ver,dens,max,median,min,mean,cv);
         cout << endl << endl;
-    }
-    void input::printexams()
-    {
-        for (auto &x : this->exams)
-        {
-            cout << x << endl;
-        }
     }

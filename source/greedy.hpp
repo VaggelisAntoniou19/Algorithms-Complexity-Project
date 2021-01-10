@@ -1,8 +1,6 @@
 /*
  * greedy.hpp
  *
- *  Created on: 7 ??? 2021
- *      Author: nasto
  */
 
 #ifndef GREEDY_HPP_
@@ -20,7 +18,7 @@ class Graph
     std::string filename;
     list<int> *adj; // A dynamic array of adjacency lists
 public:
-    // ÎšÎ±Ï„Î±ÏƒÎºÎµÏ…Î® Î³Ï�Î¬Ï†Î¿Ï…
+    
     Graph(input &in);
     ~Graph();
      void save_to_file(int total);
