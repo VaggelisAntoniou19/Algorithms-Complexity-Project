@@ -1,0 +1,13 @@
+car-f-92.stu,44
+car-s-91.stu,48
+ear-f-83.stu,29
+hec-s-92.stu,22
+kfu-s-93.stu,25
+lse-f-91.stu,22
+pur-s-93.stu,54
+rye-s-93.stu,28
+sta-f-83.stu,13
+tre-s-92.stu,29
+uta-s-92.stu,43
+ute-s-92.stu,13
+yor-f-83.stu,27
